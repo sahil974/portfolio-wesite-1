@@ -1,0 +1,39 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 1rem 1rem;
+
+    z-index: 5;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: .5rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    height: 80px;
+}
+
+nav>a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--color-light);
+    font-size: 1.1rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
