@@ -10,17 +10,20 @@ const Nav = () => {
 
     return (
         <nav>
-            <a onClick={() => setActiveNav('#')}
-                className={activeNav === '#' ? 'active' : ''} href="#"><AiOutlineHome /></a>
+            <a onClick={() => setActiveNav('#home')}
+                className={activeNav === '#home' ? 'active' : ''} href="#home"><AiOutlineHome /></a>
             <a onClick={() => setActiveNav('#about')}
                 className={activeNav === '#about' ? 'active' : ''}
                 href="#about"><AiOutlineUser /></a>
             <a onClick={() => setActiveNav('#experience')}
                 className={activeNav === '#experience' ? 'active' : ''} href="#experience"><BiBook /></a>
+
             <a onClick={() => setActiveNav('#services')}
                 className={activeNav === '#services' ? 'active' : ''} href="#services"><RiServiceLine /></a>
+
             <a onClick={() => setActiveNav('#portfolio')}
-                className={activeNav === '#portfoliot' ? 'active' : ''} href="#portfolio"><PiBriefcaseDuotone /></a>
+                className={activeNav === '#portfolio' ? 'active' : ''} href="#portfolio"><PiBriefcaseDuotone /></a>
+
             <a onClick={() => setActiveNav('#contact')}
                 className={activeNav === '#contact' ? 'active' : ''} href="#contact"><BiMessageSquareDetail /></a>
         </nav>
