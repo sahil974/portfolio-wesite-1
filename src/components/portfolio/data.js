@@ -9,21 +9,21 @@ export const data = [
         id: 1,
         Image: IMG1,
         title: "To DO List",
-        github: "https://github.com",
-        demo: "https://superb-salamander-7c1305.netlify.app/"
+        github: "https://github.com/sahil974/todo-list",
+        demo: "https://deft-sorbet-0c1219.netlify.app/"
     },
     {
         id: 2,
         Image: IMG2,
         title: "Keep Notes",
-        github: "https://github.com",
-        demo: "https://melodious-starburst-559b78.netlify.app/"
+        github: "https://github.com/sahil974/Keep-note",
+        demo: "https://bright-salmiakki-a9ce61.netlify.app/"
     },
     {
         id: 3,
         Image: IMG3,
         title: "Portfolio Website",
-        github: "https://github.com",
+        github: "https://github.com/sahil974/portfolio-wesite-1",
         demo: "#home"
     },
 
