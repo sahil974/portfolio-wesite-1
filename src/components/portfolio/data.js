@@ -26,7 +26,7 @@ export const data = [
         Image: TODO,
         title: "To DO List",
         github: "https://github.com/sahil974/todo-list",
-        demo: "https://deft-sorbet-0c1219.netlify.app/"
+        demo: "https://my-app-notes.netlify.app/"
     },
     {
         id: 4,
