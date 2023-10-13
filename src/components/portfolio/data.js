@@ -12,7 +12,7 @@ export const data = [
         Image: ECOMMERCE,
         title: "Ecommerce App",
         github: "https://github.com/sahil974/mern-ecommerce",
-        demo: "https://my-shopp-app.netlify.app/"
+        demo: "https://testing-phase.netlify.app.netlify.app/"
     },
     {
         id: 2,
