@@ -32,7 +32,7 @@ export const data = [
         id: 4,
         Image: TODO,
         title: "To DO List",
-        github: "https://github.com/sahil974/todo-list",
+        github: "https://github.com/sahil974/crud-note-app",
         demo: "https://my-app-notes.netlify.app/"
     },
     {
