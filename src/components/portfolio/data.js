@@ -19,7 +19,7 @@ export const data = [
         Image: ECOMMERCE,
         title: "Ecommerce App",
         github: "https://github.com/sahil974/mern-ecommerce",
-        demo: "https://testing-phase.netlify.app.netlify.app/"
+        demo: "https://ecommerce-app974.netlify.app/"
     },
     {
         id: 3,
